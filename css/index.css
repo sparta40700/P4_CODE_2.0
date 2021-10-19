@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a,
+button {
+  transition: all 0.3s ease-in-out;
+  outline: none !important;
+}
+
+a:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+#page-loading-blocs-notifaction {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 100000;
+  background: #ffffff url("img/pageload-spinner.gif") no-repeat center center;
+}
+
+.bloc {
+  width: 100%;
+  clear: both;
+  background: 50% 50% no-repeat;
+  padding: 0 50px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+}
+
+.bloc .container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.bloc-lg {
+  padding: 100px 50px;
+}
+
+.bloc-md {
+  padding: 50px;
+}
+
+.bloc-sm {
+  padding: 20px 50px;
+}
+/*Principal conteneur*/
+.page-container,
+#hero-bloc {
+  overflow-x: hidden;
+  position: relative;
+}
+/*bloc-0*/
+#bloc0 {
+  background-color: white;
+}
