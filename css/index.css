@@ -6,13 +6,11 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 a,
 button {
   transition: all 0.3s ease-in-out;
   outline: none !important;
 }
-
 a:hover {
   text-decoration: none;
   cursor: pointer;
@@ -23,9 +21,8 @@ a:hover {
   bottom: 0;
   width: 100%;
   z-index: 100000;
-  background: #ffffff url("img/pageload-spinner.gif") no-repeat center center;
+  background: #fff url(img/pageload-spinner.gif) no-repeat center center;
 }
-
 .bloc {
   width: 100%;
   clear: both;
@@ -40,32 +37,26 @@ a:hover {
 .bgc-dark-slate-blue {
   background-color: #364577;
 }
-
 .bloc .container {
   padding-left: 0;
   padding-right: 0;
 }
-
 .bloc-lg {
   padding: 100px 50px;
 }
-
 .bloc-md {
   padding: 50px;
 }
-
 .bloc-sm {
   padding: 20px 50px;
 }
-/*Principal conteneur*/
 .page-container,
 #hero-bloc {
   overflow-x: hidden;
   position: relative;
 }
-/*bloc-0*/
 #bloc0 {
-  background-color: white;
+  background-color: #fff;
 }
 .bg-center,
 .bg-l-edge,
@@ -82,19 +73,17 @@ a:hover {
   -o-background-size: auto !important;
   background-size: auto !important;
 }
-
 .bg-repeat {
   background: repeat;
 }
-
 .bg-t-edge {
   background: top no-repeat;
 }
 .bg-banniere {
-  background-image: url("/img/la-chouette-agence-banniere.jpg");
+  background-image: url(/img/la-chouette-agence-banniere.jpg);
 }
 .texture-paper::before {
-  background: url("/img/texture-paper.png");
+  background: url(/img/texture-paper.png);
   background-size: 280px 280px;
 }
 .bloc-bg-texture::before {
@@ -108,15 +97,12 @@ a:hover {
 .b-parallax {
   background-attachment: fixed;
 }
-
 .d-bloc {
   color: rgba(255, 255, 255, 0.7);
 }
-
 .d-bloc button:hover {
   color: rgba(255, 255, 255, 0.9);
 }
-
 .d-bloc .icon-round,
 .d-bloc .icon-square,
 .d-bloc .icon-rounded,
@@ -124,11 +110,9 @@ a:hover {
 .d-bloc .icon-semi-rounded-b {
   border-color: rgba(255, 255, 255, 0.9);
 }
-
 .d-bloc .divider-h span {
   border-color: rgba(255, 255, 255, 0.2);
 }
-
 .d-bloc .a-btn,
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
@@ -145,7 +129,6 @@ a:hover {
 .d-bloc p a {
   color: rgba(255, 255, 255, 0.6);
 }
-
 .d-bloc .a-btn:hover,
 .d-bloc .navbar a:hover,
 .d-bloc .navbar-brand:hover,
@@ -162,57 +145,45 @@ a:hover {
 .d-bloc p a:hover {
   color: rgba(255, 255, 255, 1);
 }
-
 .d-bloc .navbar-toggle .icon-bar {
   background: rgba(255, 255, 255, 1);
 }
-
 .d-bloc .btn-wire,
 .d-bloc .btn-wire:hover {
   color: rgba(255, 255, 255, 1);
   border-color: rgba(255, 255, 255, 1);
 }
-
 .d-bloc .panel {
   color: rgba(0, 0, 0, 0.5);
 }
-
 .d-bloc .panel button:hover {
   color: rgba(0, 0, 0, 0.7);
 }
-
 .d-bloc .panel icon {
   border-color: rgba(0, 0, 0, 0.7);
 }
-
 .d-bloc .panel .divider-h span {
   border-color: rgba(0, 0, 0, 0.1);
 }
-
 .d-bloc .panel .a-btn {
   color: rgba(0, 0, 0, 0.6);
 }
-
 .d-bloc .panel .a-btn:hover {
   color: rgba(0, 0, 0, 1);
 }
-
 .d-bloc .panel .btn-wire,
 .d-bloc .panel .btn-wire:hover {
   color: rgba(0, 0, 0, 0.7);
   border-color: rgba(0, 0, 0, 0.3);
 }
-
 .d-bloc .panel,
 .l-bloc {
   color: rgba(0, 0, 0, 0.5);
 }
-
 .d-bloc .panel button:hover,
 .l-bloc button:hover {
   color: rgba(0, 0, 0, 0.7);
 }
-
 .l-bloc .icon-round,
 .l-bloc .icon-square,
 .l-bloc .icon-rounded,
@@ -220,12 +191,10 @@ a:hover {
 .l-bloc .icon-semi-rounded-b {
   border-color: rgba(0, 0, 0, 0.7);
 }
-
 .d-bloc .panel .divider-h span,
 .l-bloc .divider-h span {
   border-color: rgba(0, 0, 0, 0.1);
 }
-
 .d-bloc .panel .a-btn,
 .l-bloc .a-btn,
 .l-bloc .navbar a,
@@ -243,7 +212,6 @@ a:hover {
 .l-bloc p a {
   color: rgba(0, 0, 0, 0.6);
 }
-
 .d-bloc .panel .a-btn:hover,
 .l-bloc .a-btn:hover,
 .l-bloc .navbar a:hover,
@@ -261,11 +229,9 @@ a:hover {
 .l-bloc p a:hover {
   color: rgba(0, 0, 0, 1);
 }
-
 .l-bloc .navbar-toggle .icon-bar {
   color: rgba(0, 0, 0, 0.6);
 }
-
 .d-bloc .panel .btn-wire,
 .d-bloc .panel .btn-wire:hover,
 .l-bloc .btn-wire,
