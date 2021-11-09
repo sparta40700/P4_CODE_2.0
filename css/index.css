@@ -867,6 +867,10 @@ h4 {
 .bg-presentation {
   background-image: url(img/image-de-presentation.bmp);
 }
+.tittle {
+  font-size: 27px;
+  font-weight: bolder;
+}
 @media (max-width: 1024px) {
   .bloc {
     padding-left: 20px;
