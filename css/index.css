@@ -78,7 +78,7 @@ a:hover {
 }
 
 .bg-banniere {
-  background-image: url(/img/la-chouette-agence-banniere.jpg);
+  background-image: url(../img/la-chouette-agence-banniere.jpg);
 }
 .texture-paper::before {
   background: url(/img/texture-paper.png);
