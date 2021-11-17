@@ -7,6 +7,14 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0, viewport-fit=cover"
     />
+    <meta
+      property="og:url"
+      content="https://sparta40700.github.io/P4_CODE_2.0/"
+    />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="La Chouette Agence" />
+    <meta property="og:description" content="meilleur agence de design" />
+    <meta property="og:image" content="img/logo.png" />
     <link rel="shortcut icon" type="image/png" href="favicon.jpg" />
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="css/font-awesome.css" />
@@ -242,18 +250,22 @@
               </div>
             </div>
             <div class="row tight-width-whitespace portfolio-row">
-              <div class="col-sm-6">
+              <article class="col-sm-6">
                 <a
                   href="#"
                   data-lightbox="img/1.jpg"
                   data-gallery-id="gallery-1"
                   data-caption="Refonte d'un site web pour un journal local"
                   data-frame="snapshot-lb"
-                  ><img
-                    src="img/1.jpg"
-                    alt="paris web design logo agence web meilleure agence et refonte site web journal"
-                    class="img-responsive portfolio-thumb"
-                /></a>
+                  ><picture>
+                    <source
+                      media="(max-width:528px )"
+                      srcset="img/1-500px.jpg" />
+                    <img
+                      src="img/1.jpg"
+                      alt="paris web design logo agence web meilleure agence et refonte site web journal"
+                      class="img-responsive portfolio-thumb" /></picture
+                ></a>
                 <h3 class="mg-md text-center">
                   Refonte d'un site web pour un journal local
                 </h3>
@@ -261,7 +273,7 @@
                   Nous avons créé une nouvelle identité visuelle pour un journal
                   lyonnais.
                 </p>
-              </div>
+              </article>
               <div class="col-sm-6">
                 <a
                   href="#"
@@ -269,11 +281,15 @@
                   data-gallery-id="gallery-1"
                   data-caption="Création d'un site web pour photographes"
                   data-frame="snapshot-lb"
-                  ><img
-                    src="img/2.jpg"
-                    class="img-responsive portfolio-thumb"
-                    alt="paris web design logo agence web meilleure agence, Création d'un site web pour photographes"
-                /></a>
+                  ><picture>
+                    <source
+                      media="(max-width:528px )"
+                      srcset="img/2-500px.jpg" />
+                    <img
+                      src="img/2.jpg"
+                      alt="paris web design logo agence web meilleure agence et refonte site web journal"
+                      class="img-responsive portfolio-thumb" /></picture
+                ></a>
                 <h3 class="mg-md text-center">
                   Création d'un site web pour photographes
                 </h3>
